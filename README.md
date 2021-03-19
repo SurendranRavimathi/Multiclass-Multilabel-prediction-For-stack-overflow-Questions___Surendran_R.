@@ -24,7 +24,7 @@ Tags contains the tags on each of these questions.
 
 Answers contains the body, creation date, score, and owner ID for each of the answers to these questions. The ParentId column links back to the Questions table. We don't use this file as we want to predict Tags given a question
 
-#**Steps:**
+# **Steps:**
 
 ## Step 1:**Downloading the data set**
 

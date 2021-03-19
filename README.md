@@ -1,18 +1,18 @@
-#Multiclass Multilabel Prediction For StackOverflow Questions
+# Multiclass Multilabel Prediction For StackOverflow Questions
 
-##Author : Surendran R
+## Author : Surendran R
 
-Data set : https://www.dropbox.com/s/5721wcs2guuykzl/stacksample.zip?dl=0
+**Data set** : https://www.dropbox.com/s/5721wcs2guuykzl/stacksample.zip?dl=0
 
-Objective : Given text for Questions from StackoverFlow posts, predict tags associated with them.
+**Objective** : Given text for Questions from StackoverFlow posts, predict tags associated with them.
 
 This is a scaled down version of predecting only top 10 most occurring tags
 
-Programming Language : Python 
+**Programming Language** : Python 
 
-Model Architecture : Deep Learning using CNN (Conv1D )
+**Model Architecture** : Deep Learning using CNN (Conv1D )
 
-About Data Set
+**About Data Set**
 
 Dataset has text of questions, answers and thier corresponding tags from the Stack Overflow programming Q&A website.
 
@@ -24,7 +24,7 @@ Tags contains the tags on each of these questions.
 
 Answers contains the body, creation date, score, and owner ID for each of the answers to these questions. The ParentId column links back to the Questions table. We don't use this file as we want to predict Tags given a question
 
-Steps:
+**Steps:**
 
 ## Step 1:**Downloading the data set**
 
